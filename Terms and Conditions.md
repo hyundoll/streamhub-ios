@@ -70,8 +70,9 @@ These Terms are governed by the laws of England and Wales, without regard to con
 
 If you have any questions about these Terms, please contact us at:
 
-**Email**: [hyunmin0625@gmail.com]
-**LinkedIn**: [https://www.linkedin.com/in/hyunmin-jeon-b4615b21a/]
+**Email**: hyunmin0625@gmail.com
+
+**LinkedIn**: https://www.linkedin.com/in/hyunmin-jeon-b4615b21a/
 ---
 
 *This document is a general template and does not constitute legal advice. Please consult a qualified attorney to ensure compliance with applicable laws in your target markets (e.g., UK GDPR, EU DSA, US state privacy laws) before publishing.*

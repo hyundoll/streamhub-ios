@@ -71,6 +71,5 @@ If you have any questions about these Terms, please contact us at:
 
 **Email**: hyunmin0625@gmail.com
 
-**LinkedIn**: https://www.linkedin.com/in/hyunmin-jeon-b4615b21a/
 ---
 

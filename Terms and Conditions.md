@@ -12,11 +12,15 @@ StreamHub does not create, own, or host the broadcast content made available thr
 
 ## 2. Eligibility
 
-You must be at least [13/16/18 — check local requirements] years old to use this App. Certain content may be subject to age restrictions in accordance with local broadcasting regulations. By using the App, you confirm that any age or identity information you provide (e.g., date of birth) is accurate.
+You must be at least the minimum age required under the laws of your country or region to use this App. If you are under the age at which you can lawfully consent to the processing of your personal information, you must obtain consent from your parent or legal guardian where required by applicable law.
+
+Certain content may also be subject to additional age restrictions based on local broadcasting or content regulations.
+
+By using the App, you represent that you satisfy the applicable age requirements and that any age or identity information you provide (including your date of birth) is accurate.
 
 ## 3. Account Registration
 
-Some features require an account, managed via our backend provider (Supabase). You are responsible for:
+Some features require an account, managed via our backend provider. You are responsible for:
 - Maintaining the confidentiality of your login credentials
 - All activity that occurs under your account
 - Providing accurate information (including date of birth for age-gated content)
@@ -39,34 +43,29 @@ You agree not to:
 
 ## 6. Intellectual Property
 
-The App's software, design, and branding are owned by [Company/Developer Name] or its licensors. Broadcast content, channel logos, and program information remain the property of their respective rights holders. Nothing in these Terms transfers ownership of any content to you.
+The App's software, design, and branding are owned by Hyunmin Jeon or its licensors. Broadcast content, channel logos, and program information remain the property of their respective rights holders. Nothing in these Terms transfers ownership of any content to you.
 
-## 7. Subscription and Payments
-
-[If applicable — remove this section if the App is free:]
-Certain features may require a paid subscription. Pricing, billing cycles, and cancellation terms will be presented at the point of purchase. Payments are processed through [App Store / Google Play / payment provider], and their respective terms also apply.
-
-## 8. Disclaimer of Warranties
+## 7. Disclaimer of Warranties
 
 THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. We do not guarantee uninterrupted, error-free, or secure access to any stream or feature.
 
-## 9. Limitation of Liability
+## 8. Limitation of Liability
 
-To the fullest extent permitted by law, [Company/Developer Name] shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of, or inability to use, the App, including but not limited to loss of data, loss of access to broadcast content, or service interruptions.
+To the fullest extent permitted by law, Hyunmin Jeon shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of, or inability to use, the App, including but not limited to loss of data, loss of access to broadcast content, or service interruptions.
 
-## 10. Termination
+## 9. Termination
 
 We may suspend or terminate your access to the App at any time, with or without notice, if we believe you have violated these Terms. You may stop using the App and delete your account at any time.
 
-## 11. Changes to These Terms
+## 10. Changes to These Terms
 
 We may update these Terms from time to time. Material changes will be communicated through the App or via email. Continued use of the App after changes take effect constitutes acceptance of the revised Terms.
 
-## 12. Governing Law
+## 11. Governing Law
 
 These Terms are governed by the laws of England and Wales, without regard to conflict of law principles. Any disputes shall be subject to the exclusive jurisdiction of the courts of England and Wales.
 
-## 13. Contact
+## 12. Contact
 
 If you have any questions about these Terms, please contact us at:
 
@@ -75,4 +74,3 @@ If you have any questions about these Terms, please contact us at:
 **LinkedIn**: https://www.linkedin.com/in/hyunmin-jeon-b4615b21a/
 ---
 
-*This document is a general template and does not constitute legal advice. Please consult a qualified attorney to ensure compliance with applicable laws in your target markets (e.g., UK GDPR, EU DSA, US state privacy laws) before publishing.*

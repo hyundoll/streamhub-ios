@@ -34,7 +34,7 @@
   header {
     border-bottom: 1px solid var(--border);
     padding-bottom: 24px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
   }
 
   header h1 {
@@ -50,7 +50,13 @@
 
   .intro {
     color: var(--text);
+    margin-bottom: 12px;
+  }
+
+  .privacy-link {
     margin-bottom: 40px;
+    font-size: 15px;
+    color: var(--muted);
   }
 
   nav.toc {
@@ -101,7 +107,7 @@
     font-size: 15.5px;
   }
 
-  section ul {
+  section ul, section ol {
     margin: 8px 0;
     padding-left: 22px;
   }
@@ -143,7 +149,7 @@
 </style>
 </head>
 <body>
-<div class="wrapper">
+<div class="wrapper" id="top">
 
   <header>
     <h1>Terms of Use</h1>
@@ -152,6 +158,9 @@
 
   <p class="intro">
     Welcome to StreamHub ("the App", "we", "us", or "our"). These Terms of Use ("Terms") govern your access to and use of the StreamHub mobile and web application. By downloading, accessing, or using the App, you agree to be bound by these Terms. If you do not agree, please do not use the App.
+  </p>
+  <p class="privacy-link">
+    Please also review our <a href="privacy.html">Privacy Policy</a>, which explains how we collect, use, and protect your personal information. The Privacy Policy is incorporated into these Terms by reference.
   </p>
 
   <nav class="toc" aria-label="Table of contents">
@@ -163,12 +172,16 @@
       <li><a href="#s4">Acceptable Use</a></li>
       <li><a href="#s5">Third-Party Content and Services</a></li>
       <li><a href="#s6">Intellectual Property</a></li>
-      <li><a href="#s7">Disclaimer of Warranties</a></li>
-      <li><a href="#s8">Limitation of Liability</a></li>
-      <li><a href="#s9">Termination</a></li>
-      <li><a href="#s10">Changes to These Terms</a></li>
-      <li><a href="#s11">Governing Law</a></li>
-      <li><a href="#s12">Contact</a></li>
+      <li><a href="#s7">Copyright Complaints (DMCA)</a></li>
+      <li><a href="#s8">Disclaimer of Warranties</a></li>
+      <li><a href="#s9">Limitation of Liability</a></li>
+      <li><a href="#s10">Indemnification</a></li>
+      <li><a href="#s11">Apple App Store Additional Terms</a></li>
+      <li><a href="#s12">Termination</a></li>
+      <li><a href="#s13">Dispute Resolution and Governing Law</a></li>
+      <li><a href="#s14">General Provisions</a></li>
+      <li><a href="#s15">Changes to These Terms</a></li>
+      <li><a href="#s16">Contact</a></li>
     </ol>
   </nav>
 
@@ -180,8 +193,8 @@
 
   <section id="s2">
     <h2>2. Eligibility</h2>
-    <p>You must be at least the minimum age required under the laws of your country or region to use this App. If you are under the age at which you can lawfully consent to the processing of your personal information, you must obtain consent from your parent or legal guardian where required by applicable law.</p>
-    <p>Certain content may also be subject to additional age restrictions based on local broadcasting or content regulations.</p>
+    <p>You must be at least 13 years old to use this App. We do not knowingly collect personal information from children under 13, consistent with our Privacy Policy. If you are between the ages of 13 and the age of majority in your jurisdiction, you may only use the App with the involvement and consent of a parent or legal guardian.</p>
+    <p>Certain content may also be subject to additional age restrictions based on local broadcasting or content regulations, and you may be required to confirm your date of birth to access such content.</p>
     <p>By using the App, you represent that you satisfy the applicable age requirements and that any age or identity information you provide (including your date of birth) is accurate.</p>
   </section>
 
@@ -213,6 +226,7 @@
     <ul>
       <li><strong>Broadcast Content</strong>: Channels, EPG data, and logos are sourced from third-party broadcasters via DVB-I metadata. We do not guarantee the accuracy, availability, or continuity of any channel or program.</li>
       <li><strong>Third-Party Services</strong>: The App uses third-party infrastructure, including Supabase (authentication, data storage) and content delivery networks for video playback. Your use of the App is also subject to the applicable terms of these providers where relevant.</li>
+      <li><strong>App Store Terms</strong>: If you downloaded the App from the Apple App Store or Google Play Store, your use is also subject to the applicable usage rules of that platform. In the event of a conflict between these Terms and a platform's usage rules regarding your license to use the App, the platform's usage rules will govern that specific conflict.</li>
     </ul>
   </section>
 
@@ -222,34 +236,81 @@
   </section>
 
   <section id="s7">
-    <h2>7. Disclaimer of Warranties</h2>
-    <p>THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. We do not guarantee uninterrupted, error-free, or secure access to any stream or feature.</p>
+    <h2>7. Copyright Complaints (DMCA)</h2>
+    <p>We respect the intellectual property rights of others. If you believe that content accessible through the App infringes your copyright, please send a notice to <a href="mailto:hyunmin0625@gmail.com">hyunmin0625@gmail.com</a> including:</p>
+    <ol>
+      <li>A description of the copyrighted work you believe has been infringed</li>
+      <li>The location (channel, program, or feature) where the allegedly infringing material appears</li>
+      <li>Your contact information (name, email address, and, if available, phone number)</li>
+      <li>A statement that you have a good faith belief that the use is not authorized by the copyright owner</li>
+      <li>A statement, under penalty of perjury, that the information in your notice is accurate and that you are the copyright owner or authorized to act on their behalf</li>
+    </ol>
+    <p>We will review valid notices and take appropriate action, which may include removing or disabling access to the relevant channel or content.</p>
   </section>
 
   <section id="s8">
-    <h2>8. Limitation of Liability</h2>
-    <p>To the fullest extent permitted by law, Hyunmin Jeon shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of, or inability to use, the App, including but not limited to loss of data, loss of access to broadcast content, or service interruptions.</p>
+    <h2>8. Disclaimer of Warranties</h2>
+    <p>THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. We do not guarantee uninterrupted, error-free, or secure access to any stream or feature.</p>
   </section>
 
   <section id="s9">
-    <h2>9. Termination</h2>
-    <p>We may suspend or terminate your access to the App at any time, with or without notice, if we believe you have violated these Terms. You may stop using the App and delete your account at any time.</p>
+    <h2>9. Limitation of Liability</h2>
+    <p>To the fullest extent permitted by law, Hyunmin Jeon shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of, or inability to use, the App, including but not limited to loss of data, loss of access to broadcast content, or service interruptions.</p>
   </section>
 
   <section id="s10">
-    <h2>10. Changes to These Terms</h2>
-    <p>We may update these Terms from time to time. Material changes will be communicated through the App or via email. Continued use of the App after changes take effect constitutes acceptance of the revised Terms.</p>
+    <h2>10. Indemnification</h2>
+    <p>You agree to indemnify and hold harmless Hyunmin Jeon from any claims, damages, losses, liabilities, and expenses (including reasonable legal fees) arising out of or related to your use of the App, your violation of these Terms, or your violation of any rights of a third party.</p>
   </section>
 
   <section id="s11">
-    <h2>11. Governing Law</h2>
-    <p>These Terms are governed by the laws of England and Wales, without regard to conflict of law principles. Any disputes shall be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
+    <h2>11. Apple App Store Additional Terms</h2>
+    <p>If you access the App through the Apple App Store, the following additional terms apply and take precedence over any conflicting provision in these Terms with respect to your use of the App on Apple devices:</p>
+    <ul>
+      <li>These Terms are between you and Hyunmin Jeon only, not Apple. Apple is not responsible for the App or its content.</li>
+      <li>The license granted to you is limited to a non-transferable license to use the App on any Apple-branded device that you own or control.</li>
+      <li>Apple has no obligation to provide maintenance or support services for the App.</li>
+      <li>Apple is not responsible for any product warranties, whether express or implied by law, to the extent they cannot be disclaimed under these Terms.</li>
+      <li>Apple is not responsible for addressing any claims relating to the App, including product liability claims, claims that the App fails to conform to legal or regulatory requirements, or claims arising under consumer protection legislation.</li>
+      <li>In the event of any third-party claim that the App infringes intellectual property rights, Hyunmin Jeon, not Apple, is solely responsible for the investigation, defense, and resolution of such claims.</li>
+      <li>You represent that you are not located in a country subject to a U.S. Government embargo or designated as a "terrorist supporting" country, and that you are not on any U.S. Government list of prohibited or restricted parties.</li>
+      <li>Apple, and Apple's subsidiaries, are third-party beneficiaries of these Terms, and upon your acceptance, Apple has the right to enforce these Terms against you as a third-party beneficiary.</li>
+    </ul>
   </section>
 
   <section id="s12">
-    <h2>12. Contact</h2>
+    <h2>12. Termination</h2>
+    <p>We may suspend or terminate your access to the App at any time, with or without notice, if we believe you have violated these Terms. You may stop using the App and delete your account at any time.</p>
+  </section>
+
+  <section id="s13">
+    <h2>13. Dispute Resolution and Governing Law</h2>
+    <p>Before pursuing a formal claim, you agree to first contact us at <a href="mailto:hyunmin0625@gmail.com">hyunmin0625@gmail.com</a> and attempt to resolve the dispute informally. We will attempt to resolve the dispute informally within 30 days of receiving your notice.</p>
+    <p>These Terms are governed by the laws of England and Wales, without regard to conflict of law principles. Any disputes that cannot be resolved informally shall be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
+    <p>Nothing in this section limits any non-waivable statutory rights you may have as a consumer under the laws of your country of residence.</p>
+  </section>
+
+  <section id="s14">
+    <h2>14. General Provisions</h2>
+    <ul>
+      <li><strong>Entire Agreement</strong>: These Terms, together with our Privacy Policy, constitute the entire agreement between you and us regarding the App and supersede any prior agreements.</li>
+      <li><strong>Severability</strong>: If any provision of these Terms is found unenforceable, the remaining provisions will remain in full effect.</li>
+      <li><strong>Waiver</strong>: Our failure to enforce any right or provision of these Terms will not be considered a waiver of that right or provision.</li>
+      <li><strong>Assignment</strong>: We may assign or transfer these Terms, in whole or in part, without restriction. You may not assign or transfer your rights under these Terms without our prior written consent.</li>
+      <li><strong>Force Majeure</strong>: We are not liable for any failure or delay in performance resulting from causes beyond our reasonable control, including outages of third-party services (such as Supabase or CDN providers) or broadcaster feed interruptions.</li>
+    </ul>
+  </section>
+
+  <section id="s15">
+    <h2>15. Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. Material changes will be communicated through the App or via email. Continued use of the App after changes take effect constitutes acceptance of the revised Terms.</p>
+  </section>
+
+  <section id="s16">
+    <h2>16. Contact</h2>
     <p>If you have any questions about these Terms, please contact us at:</p>
     <p><strong>Email</strong>: <a href="mailto:hyunmin0625@gmail.com">hyunmin0625@gmail.com</a></p>
+    <p><strong>Address</strong>: Woking, United Kingdom</p>
   </section>
 
   <footer>
